@@ -10,28 +10,74 @@
     border-radius: 5px;
     background: maroon;
     color: white;
-    width: 90%;
+    width: 95%;
     height: 100px;
     line-height: 100px;
     margin: 10px;
     padding: 10px;
-    font-size: 25px;
+    font-size: 50px;
 }
 
 #navigator {
-    height: 200px;
-    width: 20%;
-    margin: 10px 5%;
+    height: 250px;
+    width: 25%;
+    margin: 10px 1%;
     background: teal;
     border-radius: 5px;
     display: inline-block;
+    vertical-align: top;
 }
 
 #main_content {
     background: black;
-    height: 400px;
-    width: 60%;
-    float: right;
+    height: 550px;
+    width: 70%;
     display: inline-block;
-    margin: 10px 5%;
+    margin: 10px 1% 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+#xtra_info {
+    height: 60px;
+    width: 95%;
+    background: gray;
+    border-radius: 5px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+#nav_text {
+    color: lightgreen;
+    font-size: 16px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+#home {
+    margin-left: 23px;
+}
+
+a {
+    color: lightgreen;
+}
+
+#main_text {
+    margin: 15px;
+}
+
+.special {
+    color: #cc0099;
+}
+
+#xtra_text {
+    line-height: 60px;
+    color: white;
+    margin-left: 10px;
+}
+
+#navigator ul {
+    margin-top: 0px;
 }
